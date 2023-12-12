@@ -25,11 +25,11 @@ public class MUNCHINmoves : MonoBehaviour
             anims.SetFloat("X", movement.x);
             anims.SetFloat("Y", movement.y);
 
-            anims.SetBool("WalkActive", true);
+            anims.SetBool("IsWalkin", true);
         }
         else
         {
-            anims.SetBool("WalkActive", false);
+            anims.SetBool("IsWalkin", false);
         }
     }
 
